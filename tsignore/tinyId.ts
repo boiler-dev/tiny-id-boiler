@@ -26,10 +26,7 @@ export class TinyId {
       id = parseInt((id / ALPHABET.length).toString(), 10)
     }
 
-    return s
-      .split("")
-      .reverse()
-      .join("")
+    return s.split("").reverse().join("")
   }
 }
 
